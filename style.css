@@ -1,5 +1,11 @@
+
 .navbar-brand img{
     width: 424px;
+}
+.navbar-brand img:hover{
+    
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
 }
 .bg-color{
     background-color: #FFFBF0;
@@ -7,13 +13,17 @@
  li a:hover {
     background-color: #F1F1F1;
     border-radius: 3px;
-    color:white;  
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+    
 }
 li a:active{
     background-color: red;
     border-radius: 5px;
 }
-
+li a:focus{
+  border: 10px;
+}
 .winner-img img{
     height: 400px;
 }
@@ -53,4 +63,17 @@ h1,h2, h3, h5{
 .bg-color{
     background-color:#FFFFFF ;
     
+}
+.follow-icon ul li img{
+    height: 40px;
+    width: 40px;
+} 
+ul li{
+    list-style: none;
+    margin: 5px;
+}
+.follow-icon ul li img:hover{
+     transform: rotate(360deg);
+    /* transform: scale(1.2); */
+     transition:transform 1s ease-in-out;
 }
