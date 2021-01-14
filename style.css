@@ -1,0 +1,56 @@
+.navbar-brand img{
+    width: 424px;
+}
+.bg-color{
+    background-color: #FFFBF0;
+}
+ li a:hover {
+    background-color: #F1F1F1;
+    border-radius: 3px;
+    color:white;  
+}
+li a:active{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.winner-img img{
+    height: 400px;
+}
+.btn img{
+    height: 30px;
+}
+.btn-color{
+    background-color: #8AA521;
+}
+h1,h2, h3, h5{
+    color: #434663;
+}
+.dolor-color{
+    color: #FABE4C;
+}
+.card-jacket{
+    border: 0;
+    background-color: #F1F1F1;
+
+    }
+.card-height{
+    height: 300px;
+}
+ .main-img{
+  height: 257px;
+  width: 200px;
+  background-color:#F1F1F1;
+}
+
+.delivery-img{
+  height: 100px;  
+}
+.transport img{
+    height: 350px;
+    width: 400px;
+}
+.bg-color{
+    background-color:#FFFFFF ;
+    
+}
